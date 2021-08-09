@@ -22,7 +22,7 @@ const Projects = () => (
            {description}
         </CardInfo>
         <div>
-          <TitleContent  style={{marginTop: "15px"}}>
+          <TitleContent  style={{marginTop: "15px" , fontSize: "20px" , fontWeight: "bold"}}>
             Technologies
           </TitleContent>
           <TagList>

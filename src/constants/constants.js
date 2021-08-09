@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Travel Website',
-    description:"It is a dummy website for a travel agency built to familiarize myself with the basics of React and get better understanding of React hooks.",
+    description:"It is a dummy website for a travel agency built to familiarize myself with React and React hooks.",
     image: '/images/2.png',
     tags: ['React', 'JavaScript'],
     source: 'https://github.com/aditee-singh/Travel_Website',

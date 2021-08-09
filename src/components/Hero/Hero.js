@@ -11,7 +11,8 @@ const Hero = () => (
         Hello There! <br /> I am Aditee Singh.
       </SectionTitle>
       <SectionText>
-        I am a sophomore at JSSATE, Noida. Trying to come up with optimized solutions to real-world problems by combining them with Full Stack development. 
+        I am a sophomore at JSSATE, Noida. Trying to come up with optimized solutions to real-world problems by 
+        combining them with Full Stack development. Outside of the tech-world I have a keen interest in sports, music and cooking. 
       </SectionText>
       <Button>Get CV</Button>
     </LeftSection>
