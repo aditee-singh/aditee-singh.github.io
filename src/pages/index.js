@@ -1,5 +1,6 @@
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
+import Experience from '../components/Experience/Experience';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import { Layout } from '../layout/Layout';
@@ -10,8 +11,9 @@ const Home = () => {
     <Layout>
       <Section grid>
         <Hero />
-        {/* <BgAnimation /> */}
+        <BgAnimation />
       </Section>
+      <Experience />
       <Projects />
       <Technologies />
     </Layout>
