@@ -29,6 +29,22 @@ export const CVLink = styled.a`
   border-radius: 50px;
   font-size: 2.2rem;
   color: white;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 80%;
+    display: flex;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 0;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 40%;
+    display: flex;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 0;
+  }
 `
 
 // export const CVLink = styled.a`
