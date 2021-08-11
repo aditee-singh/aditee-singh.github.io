@@ -5,7 +5,7 @@ import { experience } from '../../constants/constants';
 const Experience = () => (
   <Section nopadding id="experience">
     <SectionTitle main>
-      Experience
+      Experience!
     </SectionTitle>
     <GridContainer>
       {experience.map(({id , title, description, image, time})=>
