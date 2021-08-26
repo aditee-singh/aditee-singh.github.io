@@ -42,4 +42,21 @@ export const experience = [
     image: 'images/ncs.jpeg', 
     time: 'February, 2020 - Present'
   }
+];
+
+export const publications = [
+  {
+    title: 'Git and Github guide',
+    description: 'Covers basic to advanced operations and commands of Git and Github',
+    id: 1,
+    image: '/images/github.png',
+    source: 'https://medium.com/@singhaditee33/beginners-guide-to-git-and-github-47b1bafdfef9'
+  },
+  {
+    title: 'Bitcoin-core and Lnd set-up',
+    description: 'One stop guide to set-up Bitcoin-core and LND on local environment',
+    id: 2,
+    image: '/images/sob-article.png',
+    source: 'https://medium.com/@singhaditee33/setting-upbitcoin-core-and-lnd-in-regtest-mode-8a7ef0d3e3c4'
+  },
 ]

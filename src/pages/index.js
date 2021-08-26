@@ -5,6 +5,7 @@ import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import Publications from '../components/Publications/Publications';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       </Section>
       <Experience />
       <Projects />
+      <Publications />
       <Technologies />
     </Layout>
   );
